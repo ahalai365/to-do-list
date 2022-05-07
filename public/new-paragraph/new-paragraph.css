@@ -1,0 +1,4 @@
+.new-paragraph {
+  display: flex;
+  justify-content: space-between;
+}

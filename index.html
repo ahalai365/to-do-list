@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/vendor/normalize.css">
+    <link rel="stylesheet" href="./public/vendor/reset.css">
+    <link rel="stylesheet" href="./public/pages/index.css">
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="todo-list">
+      <header class="header">
+        <h1 class="header__title">ToDo List</h1>
+      </header>
+      <div class="new-paragraph">
+        <input class="new-paragraph__input" />
+        <button class="new-paragraph__button" type="submit" />
+      </div>
+      <ul class="list">
+        <li class="paragraph">
+          <input class="paragraph__check" type="checkbox" />
+          <p class="paragraph__text">Берём сперва укропу</p>
+          <button class="paragraph__delete" type="submit" />
+        </li>
+        <li class="paragraph">
+          <input class="paragraph__check" type="checkbox" />
+          <p class="paragraph__text">Потом кошачью жопу</p>
+          <button class="paragraph__delete" type="submit" />
+        </li>
+        <li class="paragraph">
+          <input class="paragraph__check" type="checkbox" />
+          <p class="paragraph__text">Ведро воды</p>
+          <button class="paragraph__delete" type="submit" />
+        </li>
+        <li class="paragraph">
+          <input class="paragraph__check" type="checkbox" />
+          <p class="paragraph__text">И хуй туды</p>
+          <button class="paragraph__delete" type="submit" />
+        </li>
+      </ul>
+      <footer class="footer">
+        <div class="footer__text">У вас 4 ингридиента для плова</div>
+        <button class="footer__button-clear" type="submit">Clear all</button>
+      </footer>
+    </div>
+    </div>
+    <script src="./javascript/index.js" type="text/javascript" language="javascript"></script>
+  </body>
+</html>

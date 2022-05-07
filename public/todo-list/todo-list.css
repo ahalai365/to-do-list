@@ -1,0 +1,19 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(44, 226, 211);
+  padding: 30px 15px 20px;
+  width: 100%;
+
+
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px black;
+  overflow: hidden;
+
+}
+@media (max-width: 425px) {
+  .todo-list {
+
+  }
+}

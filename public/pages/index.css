@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Russo+One&display=swap');
+@import url('./../vendor/somespecial.css');
+@import url('./../footer/footer.css');
+@import url('./../header/header.css');
+@import url('./../header/__title/header__title.css');
+@import url('./../list/list.css');
+@import url('./../new-paragraph/new-paragraph.css');
+@import url('./../new-paragraph/__button/new-paragraph__button.css');
+@import url('./../new-paragraph/__input/new-paragraph__input.css');
+@import url('./../page/page.css');
+@import url('./../paragraph/paragraph.css');
+@import url('./../paragraph/paragraph__check/paragraph__check.css');
+@import url('./../paragraph/paragraph__delete/paragraph__delete.css');
+@import url('./../paragraph/paragraph__text/paragraph__text.css');
+@import url('./../todo-list/todo-list.css')

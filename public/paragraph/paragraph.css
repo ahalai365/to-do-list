@@ -1,0 +1,7 @@
+.paragraph {
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+  display: flex;
+  justify-content: space-between;
+}
