@@ -1,9 +1,10 @@
 .page {
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(rgb(227, 42, 221), rgb(0, 229, 255));
     font-family: 'Russo One', sans-serif;
-    height: 100vh;
     max-width: 100vw;
-    padding: 0 35vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 30px 35vw 30px;
 
     display: flex;
     justify-content: center;

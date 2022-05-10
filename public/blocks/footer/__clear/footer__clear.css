@@ -1,0 +1,10 @@
+.footer__clear {
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 20px;
+
+  border-radius: 5px;
+  background-color: rgb(227, 42, 221);
+  box-shadow: 3px 3px 10px black;
+}
