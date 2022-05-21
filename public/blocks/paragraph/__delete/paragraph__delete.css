@@ -1,6 +1,9 @@
 .paragraph__delete {
+  display: none;
+  
   width: 35px;
   height: 30px;
+  margin-left: auto;
 
   background-color: rgb(227, 42, 221);
   background-image: url(../../../../images/Close.png);
@@ -9,4 +12,8 @@
   background-position: center center;
 
   cursor: pointer;
+}
+
+.paragraph:hover > .paragraph__delete {
+  display: block;
 }

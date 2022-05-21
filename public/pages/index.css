@@ -10,6 +10,7 @@
 @import url('./../blocks/new-paragraph/__add/new-paragraph__add.css');
 @import url('./../blocks/new-paragraph/__input/new-paragraph__input.css');
 @import url('./../page/page.css');
+@import url('./../blocks/opacity/opacity.css');
 @import url('./../blocks/paragraph/paragraph.css');
 @import url('./../blocks/paragraph/__check/paragraph__check.css');
 @import url('./../blocks/paragraph/__delete/paragraph__delete.css');
