@@ -9,6 +9,15 @@
     <title>ToDo List</title>
   </head>
   <body>
+
+    <template id="paragraph-template">
+      <li class="paragraph">
+        <input class="paragraph__check" type="checkbox" />
+        <p class="paragraph__text"></p>
+        <button class="paragraph__delete" type="submit"></button>
+      </li>
+  </template>
+
     <div class="page">
       <div class="todo-list">
       <header class="header">
@@ -19,26 +28,6 @@
         <button class="new-paragraph__add opacity" type="submit"></button>
       </div>
       <ul class="list">
-        <li class="paragraph">
-          <input class="paragraph__check" type="checkbox" />
-          <p class="paragraph__text">Берём сперва укропу</p>
-          <button class="paragraph__delete" type="submit"></button>
-        </li>
-        <li class="paragraph">
-          <input class="paragraph__check" type="checkbox" />
-          <p class="paragraph__text">Потом кошачью жопу</p>
-          <button class="paragraph__delete" type="submit"></button>
-        </li>
-        <li class="paragraph">
-          <input class="paragraph__check" type="checkbox" />
-          <p class="paragraph__text">Ведро воды</p>
-          <button class="paragraph__delete" type="submit"></button>
-        </li>
-        <li class="paragraph">
-          <input class="paragraph__check" type="checkbox" />
-          <p class="paragraph__text">И хуй туды</p>
-          <button class="paragraph__delete" type="submit"></button>
-        </li>
       </ul>
       <footer class="footer">
         <div class="footer__text">У вас 4 ингридиента для супа</div>
@@ -46,6 +35,6 @@
       </footer>
     </div>
     </div>
-    <script src="./javascript/index.js" type="text/javascript" language="javascript"></script>
+    <script src="./javascript/index.js" type="module"></script>
   </body>
 </html>

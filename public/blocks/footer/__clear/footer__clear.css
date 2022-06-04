@@ -7,4 +7,6 @@
   border-radius: 5px;
   background-color: rgb(227, 42, 221);
   box-shadow: 3px 3px 10px black;
+
+  -webkit-text-stroke: 0;
 }
